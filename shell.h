@@ -31,5 +31,9 @@ char *_strcpy(char *dest, char *src);
 char *_strcat(char *dest, char *src);
 int _putchar(char c);
 
+char *_memcpy(char *dest, char *src, unsigned int n);
+int read_input(char *buffer, int *index, int *bytesRead);
+int allocate_line_buffer(char **line, int line_len);
+char *_getline(void);
 #endif /* SHELL_H */
 
